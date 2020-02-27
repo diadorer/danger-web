@@ -8,7 +8,7 @@
 const list = [ ...document.querySelectorAll('div') ]
 ```
 
-This is because babel transpile this code to something with:
+This is because babel transpile this code to something with (related [issue](https://github.com/babel/babel/issues/7597)):
 
 ```javascript 
 function _iterableToArray(iter) {
